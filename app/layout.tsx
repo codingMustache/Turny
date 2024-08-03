@@ -16,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className="flex gap-10 justify-end px-10 py-3">
+        <button className="text-white border-white border-2 px-6 py-2 rounded">Add Item</button>
+        <button className="text-white border-white border-2 px-6 py-2 rounded">Done</button>
+        </nav>
+        {children}
+        </body>
     </html>
   );
 }
