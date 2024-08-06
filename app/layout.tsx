@@ -21,7 +21,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <nav className="flex gap-10 justify-end px-10 py-3">
-          {session?.user ? (
+          {session?.user?.image.length ? (
             <a href="/dashboard">
               <img
                 className="rounded-full h-12"
