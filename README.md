@@ -37,3 +37,8 @@
 | chore | 💻 | :computer: | U+1F4BB |
 | test | 🧪 | :test_tube: | U+1F9EA |
 | docs | 📝 | :memo: | U+1F4DD |
+
+```
+# emoji-data master json
+https://raw.githubusercontent.com/iamcal/emoji-data/master/emoji.json
+```
