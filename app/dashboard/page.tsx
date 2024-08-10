@@ -1,4 +1,5 @@
 import { auth } from "@/auth";
+import Image from "next/image";}
 import Signout from "@/components/signout";
 
 export default async function Page() {
@@ -10,7 +11,7 @@ export default async function Page() {
 
 	return (
 		<main>
-			<img
+			<Image
 				className="rounded-full h-12 w-12 "
 				src={session.user.image}
 				alt="User Avatar"
